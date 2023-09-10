@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    background-color: rgb(213, 238, 252);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    margin: 2rem;
+    border: 2px solid black;
+    filter:blur(0.3px);
+    transition-duration: 0.2s;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.btn:hover{
+    filter:blur(0px);
+}
+
+.btn-container{
+    display: flex;
+
+}
+.green{
+    background-color: rgb(59, 176, 59);
+}
+
+.red{
+    background-color: rgb(184, 86, 86);
+}
+.yellow{
+    background-color: rgb(239, 239, 181);
+}
+.blue{
+    background-color: rgb(113, 113, 194);
+}
+
+.flash{
+    background-color: rgb(215, 242, 250);
+}
+
+.userflash{
+    background-color: black;
+}
+
+.rest{
+    position:relative;
+    top: 15em;
+}
+.rest button{
+    border: 0;
+    background-color: red;
+    height: 70px;
+    border-radius: 70px;
+    width: 70px;
+    box-shadow: 0px 0px 6px rgb(77, 72, 72);
+}
+
+.scoreCard{
+    position: relative;
+    left: 20%;
+    top: 10em;
+}
